@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.a1e09f7b.css",
+    "main.js": "/Portfolio/static/js/main.3c747d3b.js",
+    "static/media/profile.png": "/Portfolio/static/media/profile.19ed91b8f619cdb63640.png",
+    "static/media/hbz_logo.png": "/Portfolio/static/media/hbz_logo.e91c407e425e15ab2d2c.png",
+    "index.html": "/Portfolio/index.html",
+    "main.a1e09f7b.css.map": "/Portfolio/static/css/main.a1e09f7b.css.map",
+    "main.3c747d3b.js.map": "/Portfolio/static/js/main.3c747d3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1e09f7b.css",
+    "static/js/main.3c747d3b.js"
+  ]
+}
