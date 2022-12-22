@@ -22,10 +22,7 @@ export default function Nav() {
           <a className="nav-menu-trigger" href="#">SKILLS</a>
         </li>
         <li className="nav-item">
-          <a className="nav-menu-trigger" href="#">INTERESTS</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-menu-trigger" href="#">AWARDS</a>
+          <a className="nav-menu-trigger" href="#">PROJECTS</a>
         </li>
       </ul>
       </div>
