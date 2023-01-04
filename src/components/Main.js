@@ -31,13 +31,13 @@ export default function Application() {
   function onNavClick(e, pos) {
     e.preventDefault()
     if(pos === 1) {
-      profileRef.current.scrollIntoView()
+      profileRef.current.scrollIntoView({behavior: 'smooth'})
     } else if(pos === 2) {
-      experienceRef.current.scrollIntoView()
+      experienceRef.current.scrollIntoView({behavior: 'smooth'})
     } else if(pos === 3) {
-      educationRef.current.scrollIntoView()
+      educationRef.current.scrollIntoView({behavior: 'smooth'})
     } else if(pos === 4) {
-      skillsRef.current.scrollIntoView()
+      skillsRef.current.scrollIntoView({behavior: 'smooth'})
     }
   
   }
