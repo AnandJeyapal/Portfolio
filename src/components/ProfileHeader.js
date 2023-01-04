@@ -4,9 +4,8 @@ import {FaTwitter} from "react-icons/fa"
 import {FaFacebookF} from "react-icons/fa"
 import {FaGithub} from "react-icons/fa"
 
-export default function ProfileHeader() {
-  return(
-    <section className="resume-section">
+const ProfileHeader = React.forwardRef((props, ref) => (
+    <section className="resume-section" ref={ref}>
     <div className="resume-section-content">
         <h1 className="title-name">
             Anand 
@@ -28,5 +27,6 @@ Looking forward to working on challenging and innovative projects.</p>
         </div>
     </div>
 </section>
-  )
-}
+));
+
+export default ProfileHeader
