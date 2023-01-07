@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f4b98271.css",
-    "main.js": "/Portfolio/static/js/main.7558d7b2.js",
+    "main.css": "/Portfolio/static/css/main.dc745def.css",
+    "main.js": "/Portfolio/static/js/main.7b39b465.js",
     "static/media/profile.png": "/Portfolio/static/media/profile.19ed91b8f619cdb63640.png",
-    "static/media/hbz_logo.png": "/Portfolio/static/media/hbz_logo.e91c407e425e15ab2d2c.png",
     "index.html": "/Portfolio/index.html",
-    "main.f4b98271.css.map": "/Portfolio/static/css/main.f4b98271.css.map",
-    "main.7558d7b2.js.map": "/Portfolio/static/js/main.7558d7b2.js.map"
+    "main.dc745def.css.map": "/Portfolio/static/css/main.dc745def.css.map",
+    "main.7b39b465.js.map": "/Portfolio/static/js/main.7b39b465.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4b98271.css",
-    "static/js/main.7558d7b2.js"
+    "static/css/main.dc745def.css",
+    "static/js/main.7b39b465.js"
   ]
 }
