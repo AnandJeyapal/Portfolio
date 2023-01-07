@@ -72,12 +72,14 @@ nav {
 }
 
 .nav-item {
+  font-family: 'Mulish', sans-serif;
   display: block;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-  padding: 0.5rem;
-  font-size: x-large;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
   cursor: pointer;
+  color:rgba(255, 255, 255, 0.55);
 }
 
 .profile--layout {
@@ -197,6 +199,14 @@ p.lead {
   font-family: 'Mulish', sans-serif;
 }
 
+.gray {
+  color: #6c757d;
+}
+
+.lh-2 {
+  line-height: 2;
+}
+
 .r-pad-8 {
   padding-right: 8px;
 }
@@ -242,7 +252,7 @@ hr {
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.55);
 }
 
 .button-layout>div {
@@ -341,4 +351,11 @@ footer>svg {
 
 .nav-menu-trigger {
   cursor: pointer;
+}
+.medal {
+  max-width: 25px;
+  max-height: 25px;
+}
+.active > a {
+  color: white;
 }

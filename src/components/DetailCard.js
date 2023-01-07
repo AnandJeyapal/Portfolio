@@ -1,5 +1,4 @@
 import React from "react";
-import HBZLogo from '../images/hbz_logo.png'
 import GoldMedal from '../images/medal.png'
 
 
