@@ -20,10 +20,10 @@ const ProfileHeader = React.forwardRef((props, ref) => (
 management, SQL database management, document parsing and rendering solutions (optimized for mobile devices).
 Looking forward to working on challenging and innovative projects.</p>
         <div className="social-icons">
-            <a className="social-icon" href="#!"><FaLinkedinIn/></a>
+            <a className="social-icon" href="https://www.linkedin.com/in/anand-jeyapal-464177a6/" target="_blank"><FaLinkedinIn/></a>
             <a className="social-icon" href="#!"><FaFacebookF/></a>
-            <a className="social-icon" href="#!"><FaTwitter/></a>
-            <a className="social-icon" href="#!"><FaGithub/></a>
+            <a className="social-icon" href="https://twitter.com/janand1991" target="_blank"><FaTwitter/></a>
+            <a className="social-icon" href="https://github.com/AnandJeyapal" target="_blank"><FaGithub/></a>
         </div>
     </div>
 </section>
