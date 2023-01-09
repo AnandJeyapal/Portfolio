@@ -4,12 +4,14 @@ import EducationSection from "./EducationSection";
 import ExperienceSection from "./ExperienceSection";
 import ProfileHeader from "./ProfileHeader";
 import SkillsSection from "./SkillsSection";
+import ProjectSection from './ProjectSection';
 
 
 const profileRef = React.createRef();
 const skillsRef = React.createRef();
 const educationRef = React.createRef();
 const experienceRef = React.createRef();
+const projectRef = React.createRef();
 
 function ProfileLayout() {
 
@@ -22,6 +24,8 @@ function ProfileLayout() {
       <EducationSection ref = {educationRef} />
       <hr/>
       <SkillsSection ref = {skillsRef} />
+      <hr/>
+      <ProjectSection ref = {projectRef} />
     </div>
   )
 }
@@ -38,6 +42,8 @@ export default function Application() {
       educationRef.current.scrollIntoView({behavior: 'smooth'})
     } else if(pos === 4) {
       skillsRef.current.scrollIntoView({behavior: 'smooth'})
+    } else if(pos === 5) {
+      projectRef.current.scrollIntoView({behavior: 'smooth'})
     }
   
   }

@@ -94,7 +94,7 @@ nav {
   padding-top: 3.5rem;
   padding-bottom: 5rem;
   max-width: 75rem;
-  height: 90vh;
+  min-height: 90vh;
 }
 
 .expand {
@@ -195,6 +195,16 @@ p.lead {
   margin-bottom: 3rem;
 }
 
+.project-container {
+  margin-bottom: 3rem;
+}
+
+.project-detail--block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .muli {
   font-family: 'Mulish', sans-serif;
 }
@@ -211,11 +221,24 @@ p.lead {
   padding-right: 8px;
 }
 
-.detail--block p {
+.detail--block p, .project-detail--block p {
   font-family: 'Mulish', sans-serif;
   color: #6c757d;
   margin-top: 0;
   font-size: 1.05rem;
+}
+
+.project-desc {
+  font-family: 'Mulish', sans-serif;
+  color: #41464b;
+  margin-top: 0;
+  font-size: 1.05rem;
+  padding-left: 0.5rem;
+  line-height: 1.7;
+}
+
+.project-desc li {
+  line-height: 1.7;
 }
 
 .flex-grow-1 {
@@ -358,4 +381,12 @@ footer>svg {
 }
 .active > a {
   color: white;
+}
+.company-image {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 1rem;
+}
+.project {
+  display: flex;
 }
