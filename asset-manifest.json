@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f9a227f4.css",
-    "main.js": "/Portfolio/static/js/main.e9ce5e75.js",
+    "main.js": "/Portfolio/static/js/main.172af7de.js",
     "static/media/profile.png": "/Portfolio/static/media/profile.a2e7dec693dedd832312.png",
     "static/media/hbz_logo.png": "/Portfolio/static/media/hbz_logo.5999b392dc8f6b8a5605.png",
     "static/media/business-card.png": "/Portfolio/static/media/business-card.9c0f4f9bfa319faee972.png",
@@ -10,10 +10,10 @@
     "static/media/first_place.png": "/Portfolio/static/media/first_place.6daf09b512f67d8120de.png",
     "index.html": "/Portfolio/index.html",
     "main.f9a227f4.css.map": "/Portfolio/static/css/main.f9a227f4.css.map",
-    "main.e9ce5e75.js.map": "/Portfolio/static/js/main.e9ce5e75.js.map"
+    "main.172af7de.js.map": "/Portfolio/static/js/main.172af7de.js.map"
   },
   "entrypoints": [
     "static/css/main.f9a227f4.css",
-    "static/js/main.e9ce5e75.js"
+    "static/js/main.172af7de.js"
   ]
 }
