@@ -21,7 +21,7 @@ const SkillsSection = React.forwardRef((props, ref) => (
           </div>
         <br/>
         <div className="subheading mb-0">WORKFLOW</div>
-        <ul className="muli gray lh-2">
+        <ul className="muli gray lh-2 workflow">
           <li>Mobile Application Development with Java</li>
           <li>Web Application Development with Vaadin and React</li>
           <li>Expertise with Material design guidelines</li>

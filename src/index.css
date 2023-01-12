@@ -225,16 +225,21 @@ p.lead {
   font-family: 'Mulish', sans-serif;
   color: #6c757d;
   margin-top: 0;
-  font-size: 1.05rem;
+  font-size: 1.10rem;
+  line-height: 1.7;
 }
 
 .project-desc {
   font-family: 'Mulish', sans-serif;
   color: #41464b;
   margin-top: 0;
-  font-size: 1.05rem;
+  font-size: 1.10rem;
   padding-left: 0.5rem;
   line-height: 1.7;
+}
+
+.workflow {
+  font-size: 1.05rem;
 }
 
 .project-desc li {
